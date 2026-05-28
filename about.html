@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-mono-chrome">
+    <title>강서구 셔츠룸 가이드 | 010-6279-0862</title>
+    <meta name="description" content="강서구 셔츠룸 가이드, 강서 셔츠룸 추천, 강서구 셔츠룸 정보. 전화: 010-6279-0862">
+    <meta name="keywords" content="강서구 셔츠룸, 강서 셔츠룸, 셔츠룸 가이드">
+    <link rel="canonical" href="https://gangseo-guide.pages.dev">
+    <meta property="og:title" content="강서구 셔츠룸 가이드 | 010-6279-0862">
+    <meta property="og:description" content="강서구 셔츠룸 가이드, 강서 셔츠룸 추천, 강서구 셔츠룸 정보. 전화: 010-6279-0862">
+    <meta property="og:url" content="https://gangseo-guide.pages.dev">
+    <meta property="og:type" content="website">
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-primary: #1d1d1f;
+            --text-secondary: #86868b;
+            --accent-color: #000000;
+            --border-color: #d2d2d7;
+            --card-bg: #f5f5f7;
+            --spacing-unit: 24px;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+        header {
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+        }
+        nav {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 0 var(--spacing-unit);
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-logo {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: var(--accent-color);
+        }
+        main {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 60px var(--spacing-unit);
+        }
+        section {
+            margin-bottom: 80px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+        p {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 0;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 60px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .review {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .review-card {
+            background: var(--card-bg);
+            border-radius: 18px;
+            padding: 30px;
+            transition: transform 0.3s ease;
+        }
+        .review-card:hover {
+            transform: translateY(-5px);
+        }
+        .review-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            background-color: #e5e5e5;
+        }
+        .review-card h2 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+        .review-card p {
+            font-size: 0.95rem;
+            margin-bottom: 0;
+        }
+        .faq-section {
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 20px;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+        .faq-question {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 20px;
+        }
+        footer {
+            border-top: 1px solid var(--border-color);
+            padding: 40px var(--spacing-unit);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            nav ul { gap: 15px; }
+            main { padding: 40px 20px; }
+            .review { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="/" class="nav-logo">강서구 셔츠룸 가이드</a>
+            <ul>
+                <li><a href="/">홈</a></li>
+                <li><a href="#">정보</a></li>
+                <li><a href="#">추천</a></li>
+                <li><a href="tel:010-6279-0862">상담문의</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>강서구 셔츠룸, <br>알아두면 쓸모 있는 정보</h1>
+            <p>첫 방문이라 조금 떨리시나요? 걱정 마세요. 강서구 셔츠룸의 모든 것, 처음 온 것처럼 친절하게 알려드릴게요. 완벽한 밤을 위한 체크리스트입니다.</p>
+        </section>
+
+        <section>
+            <h2>왜 강서구인가요?</h2>
+            <p>강서구는 서울의 서쪽 관문이자, 가장 역동적인 엔터테인먼트 허브 중 하나예요. 공항과 가까워 접근성이 좋고, 마곡, 화곡, 염창 등 주요 거점에 훌륭한 시설들이 모여 있죠. 거창한 설명보다는, 실제로 다녀온 사람들의 생생한 후기가 더 중요하다고 생각해요. 그래서 진짜 '찐' 정보만 모았습니다.</p>
+        </section>
+
+        <section class="review">
+            <div class="review-card">
+                <img src="https://placehold.co/600x400/f5f5f7/1d1d1f?text=Guide+Image+1" alt="강서구 셔츠룸 내부 분위기">
+                <h2>初めての Direction</h2>
+                <p>첫 방문이라면 '위치'와 '접근성'이 가장 중요해요. 강서구는 지하철 역과 가깝거나 전용 주차가 잘 되어 있는 곳이 많으니, 미리 경로를 확인하는 게 좋겠죠? 혼잡한 시간대를 피하면 더 여유로운 분위기를 즐길 수 있어요.</p>
+            </div>
+            <div class="review-card">
+                <img src="https://placehold.co/600x400/f5f5f7/1d1d1f?text=Guide+Image+2" alt="셔츠룸 매니저 상담">
+                <h2>Communication</h2>
+                <p>가장 궁금한 건 역시 '분위기'와 '서비스'일 거예요. 전화 한 통이면 모든 게 해결됩니다. 010-6279-0862 로 연락주시면, 고객님의 취향에 딱 맞는 곳을 추천해 드려요. 부담 없이 물어보세요.</p>
+            </div>
+            <div class="review-card">
+                <img src="https://placehold.co/600x400/f5f5f7/1d1d1f?text=Guide+Image+3" alt="강서구 밤문화 지도">
+                <h2>Local Vibe</h2>
+                <p>강서구의 밤은 생각보다 다양해요. 조용한 대화를 나누고 싶거나, 신나게 즐기고 싶거나. 목적에 따라 장소를 고르는 센스, 이제부터는 저희가 도와드릴게요. 실패 없는 선택을 약속합니다.</p>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <h2>자주 묻는 질문 (FAQ)</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q. 예약 없이 방문해도 되나요?</div>
+                <div class="faq-answer">A. 주말이나 성수기에는 혼잡할 수 있어 예약을 권장해요. 빈방 확인과 빠른 입장을 위해 미리 연락주시면 좋습니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q. 가격이 궁금해요.</div>
+                <div class="faq-answer">A. 업체와 프로그램에 따라 상이하지만, 합리적인 선에서 이용하실 수 있어요. 정확한 요금은 상담 시 안내해 드립니다.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q. 주차 시설은 어떻게 되나요?</div>
+                <div class="faq-answer">A. 대부분의 추천 업체가 전용 주차장이나 인근 공영 주차장을 보유하고 있어 편리하게 이용 가능합니다.</div>
+            </div>
+        </section>
+
+        <section style="text-align: center; margin-top: 60px;">
+            <h2>아직 고민 중이신가요?</h2>
+            <p>강서구 셔츠룸 가이드는 여러분의 즐거운 시간을 응원합니다.<br>궁금한 점은 언제든 편하게 물어보세요.</p>
+            <a href="tel:010-6279-0862" class="cta-button">010-6279-0862 전화하기</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 강서구 셔츠룸 가이드. All rights reserved.</p>
+        <p>본 사이트는 정보 제공을 목적으로 하며, 모든 이용은 개인의 책임하에 이루어집니다.</p>
+    </footer>
+
+</body>
+</html>
