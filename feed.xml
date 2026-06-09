@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title><![CDATA[강서 강서구 셔츠룸 가이드]]></title>
-  <link>https://gangseo-guide.pages.dev</link>
-  <description><![CDATA[강서 셔츠룸 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-  <language>ko-KR</language>
-  <pubDate>Thu, 28 May 2026 16:20:19 GMT</pubDate>
-  <lastBuildDate>Thu, 28 May 2026 16:20:19 GMT</lastBuildDate>
-  <atom:link href="https://gangseo-guide.pages.dev/feed.xml" rel="self" type="application/rss+xml" />
+  <title><![CDATA[셔츠룸]]></title>
+  <link>https://tidalhss-star.github.io/bp-gangseo-guide</link>
+  <description><![CDATA[셔츠룸 - 강서구 셔츠룸 가이드 관련 최신 소식 및 가이드]]></description>
+  <language>ko</language>
+  <pubDate>Tue, 09 Jun 2026 23:39:43 GMT</pubDate>
+  <lastBuildDate>Tue, 09 Jun 2026 23:39:43 GMT</lastBuildDate>
+  <atom:link href="https://tidalhss-star.github.io/bp-gangseo-guide/feed.xml" rel="self" type="application/rss+xml" />
   
     <item>
-      <title><![CDATA[강서 강서구 셔츠룸 가이드 - 공식 홈페이지 오픈 안내]]></title>
-      <link>https://gangseo-guide.pages.dev/</link>
-      <guid isPermaLink="true">https://gangseo-guide.pages.dev/</guid>
-      <description><![CDATA[강서 셔츠룸 관련 최신 뉴스, 서비스 안내, 리얼 후기 정보를 신속하게 전달하는 공식 RSS 피드입니다.]]></description>
-      <pubDate>Thu, 28 May 2026 16:20:19 GMT</pubDate>
+      <title><![CDATA[창작한 제목]]></title>
+      <link>https://tidalhss-star.github.io/bp-gangseo-guide/posts/compare-001-mviohl.html</link>
+      <guid isPermaLink="true">https://tidalhss-star.github.io/bp-gangseo-guide/posts/compare-001-mviohl.html</guid>
+      <description><![CDATA[데이터 마이닝으로 발견된 미사용 보스 패턴과 컷된 이유: 엘든링의 숨겨진 세계 아, 진짜 2021년 겨울, 서버실 온도가 42도까지 올라갔을 때 우리는 데이터 마이닝으로 엘든링에서 미사용 보스 모델과 실제 컷된 이유를 찾게 되었습니다. 이 글은 이런 발견을 통해 게임 ]]></description>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[릭 데커드의 유니콘, 그 잔상과 ‘블루 스크린’의 악몽]]></title>
+      <link>https://tidalhss-star.github.io/bp-gangseo-guide/posts/review-001.html</link>
+      <guid isPermaLink="true">https://tidalhss-star.github.io/bp-gangseo-guide/posts/review-001.html</guid>
+      <description><![CDATA[bladerunner, final_cut, rick_deckard, unicorn_dream, sequence, Ridley_Scott, film_analysis, narrative_device, director_intention, cinematic_history, v]]></description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[강서구 셔츠룸 가이드보다 더 복잡한 블레이드 러너: 감독판 유니콘, 그놈의 속사정을 내가 까발린다.]]></title>
+      <link>https://tidalhss-star.github.io/bp-gangseo-guide/posts/review-002.html</link>
+      <guid isPermaLink="true">https://tidalhss-star.github.io/bp-gangseo-guide/posts/review-002.html</guid>
+      <description><![CDATA[아, 진짜. 맨날 똑같은 소리들. 블레이드 러너 이야기만 나오면 그놈의 '레플리칸트 논쟁'이니 뭐니, 지겨워 죽겠다니까. 솔직히 나처럼 방구석에서 데이터만 파고 사는 사람한테는 그런 얄팍한 해석들, 그냥 소음일 뿐이야. 진짜배기 이야기는 따로 있다니까? 감독이 대체 무]]></description>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
     </item>
 </channel>
 </rss>
